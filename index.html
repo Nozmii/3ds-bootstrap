@@ -1,14 +1,21 @@
-<!--<script type="text/javascript" src="out.js"></script>-->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>3DS Bootstrap</title>
+</head>
+<body>
+<h1>3DS Bootstrap</h1>
+<p>Premier passage : installation de boot.3dsx sur la SD.</p>
+
+<button onclick="go()">PROCEED TO HAXX</button>
+
+<iframe id="fr2" width="800" height="600" style="display:none"></iframe>
+
 <script>
-
-	function go(){
-		var f=document.getElementById("fr2");
-		f.src='frame.html';
-	}	
-	
+function go() {
+    document.getElementById("fr2").src = "frame.html";
+}
 </script>
-<body onload="go()">
-	<h1>Haxx in progress, please wait ...</h1>
-	<iframe id="fr2" width="800" height="600" src="">
 </body>
-
+</html>
